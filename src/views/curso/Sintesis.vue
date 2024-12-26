@@ -2,11 +2,11 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
-    figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
-    
-
+    p(data-aos="fade-up").mb-5 La unidad 2 se centra en los principios esenciales de la analítica de datos, abordando las técnicas y herramientas claves para transformar grandes volúmenes de datos estructurados y no estructurados, en información valiosa. Este enfoque proporciona a los estudiantes las competencias necesarias para aplicar métodos analíticos, en diversos contextos, promoviendo la toma de decisiones fundamentadas en evidencia.
+      .row.justify-content-center
+        .col-lg-12.mb-5
+          figure.bg-color-sintesis.p-5.brounded
+            img(src='@/assets/curso/sintesis/sintesis.svg', alt='')
 </template>
 <script>
 import BannerInterno from '../../components/plantilla/BannerInterno'

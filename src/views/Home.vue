@@ -22,9 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4 La analítica de datos permite identificar tendencias y oportunidades, mediante la recolección y análisis de información. Se divide en analítica descriptiva, predictiva y prescriptiva. La descriptiva, analiza datos históricos para comprender qué ocurrió, usando herramientas como Power BI y K-Means. La predictiva, anticipa eventos futuros mediante machine learning y modelos estadísticos. La minería de datos, procesa información estructurada y no estructurada, combinando métricas cuantitativas y cualitativas, con herramientas como Hadoop y Spark. Sus aplicaciones incluyen optimización de recursos, detección de fraudes y toma de decisiones estratégicas.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold Dominar la analítica de datos, es el primer paso para transformar desafíos en oportunidades y construir un futuro guiado por decisiones inteligentes y estratégicas.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
@@ -102,10 +101,10 @@ export default {
       text-align: center
       display: flex
       .iniciar-btn-text
-        background-color: $color-sistema-d
+        background-color: #3C97DA !important
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff
+        color: #fff !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px
@@ -145,13 +144,14 @@ export default {
 
 .iniciar-btn-container
   .iniciar-btn-text
-    transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    transition: all 0.4s ease-in-out
+    background-color: $color-btn-fondo !important
+    color: $color-btn-texto !important
   .icon
-    transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    transition: all 0.4s ease-in-out
+    background-color: darken($color-btn-fondo, 20%) !important
   &:hover
     .icon
-      transform: scale(1.06)
+      transform: scale(1.05)
+      cursor: pointer
 </style>
