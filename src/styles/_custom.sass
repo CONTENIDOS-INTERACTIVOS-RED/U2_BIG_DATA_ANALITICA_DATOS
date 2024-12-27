@@ -42,7 +42,13 @@
   &-1
     background-color: #FEEBDB !important
   &-2
-    background-color: #205277 !important
+    background-color: #FBE1FD !important
+  &-3
+    background-color: #3C97DA !important
+  &-4
+    background-color: #EAF4FB !important
+  &-5
+    background-color: #D7E9F7 !important
   &-sintesis
     background-color: #F9F9F9
   &-white
@@ -59,31 +65,22 @@
 .bg-full-width
   background-size: cover
   background-repeat: no-repeat
-  background-position: bottom
   margin-inline: -3.3rem
   @media screen and (max-width: $bp-max-sm)
     padding-left: 1.5rem
     padding-right: 1.5rem
 
 .bg-fondo
-/*&-1
-    background-image: url("../assets/bg/bg1.png") !important
-    background-position: center
+  &-1
+    background-image: url("../assets/bg/orange.svg") !important
+    background-position: top
   &-2
-    background-image: url("../assets/bg/bg2.png") !important
-    background-position: bottom
-  &-slider
-    background-image: url("../assets/bg/bg-slider.png") !important
-    background-position: bottom
+    background-image: url("../assets/bg/pink.svg") !important
+    background-position: center
   &-3
-    background-image: url("../assets/bg/3.svg") !important
+    background-image: url("../assets/bg/blue.svg") !important
     background-position: center
-  &-4
-    background-image: url("../assets/bg/4.svg") !important
-    background-position: center
-  &-5
-    background-image: url("../assets/bg/5.svg") !important
-    background-position: top*/
+
 // Variables
 $custom-card-border-radius: 0px
 $custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
@@ -120,15 +117,15 @@ $custom-card-img-height: 322px
     object-fit: cove
 
 .acordion__header
-  background-color: lighten($color-terciario, 24%) !important
+  background-color: lighten($color-acento-contenido, 24%) !important
 
 .acordion__header--active
-  background-color: $color-terciario !important
+  background-color: $color-acento-contenido !important
   h4, i
     color: #000 !important
 
 .acordion__contenido
-  background-color: lighten($color-terciario, 25%) !important
+  background-color: lighten($color-acento-contenido, 25%) !important
 
 .anexo__texto
   p, strong
@@ -218,3 +215,22 @@ i.fas.fa-quote-left
 .lista-ol--cuadro__vineta.color-acento-contenido
   background-color: $color-acento-contenido !important
   color: #fff !important
+.tabla-a.color-primario thead th
+    background-color: $color-primario !important
+.tabla-a.color-primario thead tr, tbody tr
+    background-color: #EAF4FB !important
+.tabla-a.color-primario thead tr, tbody tr:not(:last-child)
+    border-bottom: 1px solid #707070
+.tabla-a.color-primario tbody td:last-child, thead tr th:last-child
+    border-left: 1px solid #707070
+.tabla-a.color-primario tbody tr td:first-child, thead tr th:first-child
+    border-right: 1px solid #707070
+i.fas.fa-circle
+  color: #000
+.icon-list 
+    font-size: 6px;
+    vertical-align: super;
+    color: #000 !important;
+.lista-ul--color li > i:first-of-type 
+    top: 10px !important
+    vertical-align: middle !important
