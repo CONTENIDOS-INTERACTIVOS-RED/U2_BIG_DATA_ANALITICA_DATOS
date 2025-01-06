@@ -183,7 +183,7 @@
     p.mb-3(data-aos='flip-up') Las aplicaciones prácticas de la analítica, permiten optimizar procesos y tomar decisiones estratégicas en diversos campos.
     figure.mb-5(data-aos='flip-up')
       .video
-        iframe(width="560" height="315" src="PEND" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        // iframe(width="560" height="315" src="PEND" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     h2.mb-4(data-aos='flip-up') Ventajas de la analítica descriptiva
     p.mb-4(data-aos='flip-up') La analítica descriptiva ofrece ventajas significativas para las organizaciones, al proporcionar información clara y procesable.
@@ -396,7 +396,36 @@
           .col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/t1/34.png', alt='')
 
-
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/elibrocom/titulos/228973' target='_blank' rel='noopener noreferrer') Alarcón García, R. E. & Bravo Jaico, J. L. (Dir.). (2021). Sistema analítico basado en un modelo predictivo de procesamiento de datos en la Big Data en la Educación Superior. D - Universidad Señor de Sipán.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.redalyc.org/articulo.oa?id=344251476001' target='_blank' rel='noopener noreferrer') Hernández-Leal, E. J., Duque-Méndez, N. D. & Moreno-Cadavid, J. (2017). Big Data: una exploración de investigaciones, tecnologías y casos de aplicación. TecnoLógicas, 20(39), pp. 15-38.
+            
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwi_16CtjaqKAxXKpVoFHWcfEH0YABAGGgJ2dQ&co=1&ase=2&gclid=CjwKCAiAmfq6BhAsEiwAX1jsZyV-GsicmWvyZ4UDt0h6kE8iknIy8JqB1vGMoGKx2ZM3m9wsm1P5pRoCF34QAvD_BwE&ohost=www.google.com&cid=CAESVuD2oLinDIE1KIUkwa71fD4ZE0krJpRhP8OYJsNgLvkJe9cWI5GXYjq8Cht0RTWRGmlwITfTSOIwcaJwD44mc1CHcQpZyPdqQCMrn71AHg4C0KLizV_V&sig=AOD64_1wjiJ-YKlimXyF-eXgT9USMwltkA&q&nis=4&adurl&ved=2ahUKEwiStZutjaqKAxVNTjABHf-CL3YQ0Qx6BAgNEAE' target='_blank' rel='noopener noreferrer') Unisys. (s.f.). Data Analytics Solutions.
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/playlist?list=PLIOfVkvrHKVQFde9HMXKPB6UKacvVJq2t' target='_blank' rel='noopener noreferrer') Data_Pathfinder. (2024). Creación de un dashboard completo: gestión de datos, medidas y diseño visual [video]. YouTube.
+            
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>

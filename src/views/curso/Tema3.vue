@@ -57,7 +57,28 @@
           .col-lg-5.d-none.d-lg-block
              img(src='@/assets/curso/t3/5.png', alt='')
 
-
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/elibrocom/titulos/107324' target='_blank' rel='noopener noreferrer') Charles, V. & Chión, S. (2016). Analítica de datos para la modelación estructural. Pearson Educación.
+            
+            
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com//@AprenderBigData' target='_blank' rel='noopener noreferrer') Aprender Big Data. (2019). (video). YouTube.
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5
         #Actividad                

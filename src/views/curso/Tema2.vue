@@ -111,6 +111,37 @@
         .col-lg
           .p-4
             p.mb-0 Un minorista cruza datos de ventas (estructurados) con comentarios de clientes (no estructurados). Las ventas incluyen columnas como fecha, producto y monto, mientras que los comentarios de clientes, provienen de redes sociales y encuestas. Este análisis revela una correlación entre una disminución en las ventas y menciones negativas en redes, sobre la calidad del producto, lo que permite a la empresa tomar medidas inmediatas.
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://elibro.net/es/lc/elibrocom/titulos/217097' target='_blank' rel='noopener noreferrer') Rovira Samblancat, P. & Pascual Cid, V. (2021). Analítica Visual. Cómo explorar, analizar y comunicar datos. Anaya Multimedia.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.redalyc.org/articulo.oa?id=291376231005' target='_blank' rel='noopener noreferrer') León García, O. A. (2023). Impacto de las capacidades de análisis de Big Data en la innovación empresarial. Ingeniería y Competitividad, 25(2).
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://docs.rapidminer.com/9.9/studio/installation/' target='_blank' rel='noopener noreferrer') RapidMiner. (s.f.). RapidMiner Studio 9.9: Installation guide. 
+            
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.youtube.com/watch?v=u_BmGi4RxRQ' target='_blank' rel='noopener noreferrer') TED. (2012). How to get your ideas to spread | Seth Godin [video]. YouTube.
+            
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
+
 </template>
 
 <script>
