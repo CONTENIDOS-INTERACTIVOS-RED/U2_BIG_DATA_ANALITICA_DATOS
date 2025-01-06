@@ -58,13 +58,184 @@
              img(src='@/assets/curso/t3/5.png', alt='')
 
 
-
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 
 </template>
 
 <script>
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
+  data: () => ({
+    cuestionario: {
+      tema: '--',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            '¿Qué técnica de analítica permite comprender eventos pasados para la toma decisiones?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Analítica predictiva',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Analítica descriptiva',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Minería de datos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Machine Learning',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La analítica descriptiva es la técnica que nos permite comprender eventos pasados.',
+          mensaje_incorrecto: 'No es correcto. Intenta nuevamente.',
+        },
+        {
+          id: 2,
+          texto: '¿Cuál es una ventaja clave de la analítica descriptiva?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Anticipar eventos futuros',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Proporcionar un análisis visual claro de los datos',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Realizar simulaciones complejas',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Generar acciones óptimas',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! La analítica descriptiva proporciona un análisis visual claro de los datos.',
+          mensaje_incorrecto: 'No es correcto. Revisa nuevamente el material.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué tipo de datos se almacenan en un formato predefinido como tablas?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'No estructurados',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Estructurados',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Semiestructurados',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Heterogéneos',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! Los datos estructurados son aquellos que se almacenan en formatos predefinidos como tablas.',
+          mensaje_incorrecto: 'No es correcto. Intenta nuevamente.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué algoritmo de minería de datos es utilizado para identificar patrones frecuentes?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Apriori',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'K-Means',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Random Forest',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Regresión lineal',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! El algoritmo Apriori es utilizado para identificar patrones frecuentes en los datos.',
+          mensaje_incorrecto: 'No es correcto. Revisa nuevamente el material.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál de las siguientes herramientas es ideal para analizar datos no estructurados?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'SQL',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'HDFS',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Power BI',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'MySQL',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Correcto! HDFS es una herramienta ideal para el análisis de datos no estructurados.',
+          mensaje_incorrecto: 'No es correcto. Intenta nuevamente.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
