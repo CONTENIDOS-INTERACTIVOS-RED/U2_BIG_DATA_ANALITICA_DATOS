@@ -1,6 +1,6 @@
 export default {
   global: {
-    numeroUnidad: '1',
+    numeroUnidad: '2',
     tituloUnidad: 'Fundamentos de analítica de datos',
   },
   menuPrincipal: {
@@ -110,22 +110,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Alarcón García, R. E. & Bravo Jaico, J. L. (Dir.). (2021). Sistema analítico basado en un modelo predictivo de procesamiento de datos en la Big Data en la Educación Superior. D - Universidad Señor de Sipán.',
-      link: 'https://elibro.net/es/lc/elibrocom/titulos/228973',
-    },
-    {
-      referencia:
-        'Rovira Samblancat, P. & Pascual Cid, V. (2021). Analítica Visual. Cómo explorar, analizar y comunicar datos. Marcombo Multimedia.',
-      link: 'https://elibro.net/es/lc/elibrocom/titulos/217097',
-    },
-    {
-      referencia:
-        'Charles, V. & Chión, S. (2016). Analítica de datos para la modelación estructural. Pearson Educación.',
-      link: 'https://elibro.net/es/lc/elibrocom/titulos/107324',
-    },
-    {
-      referencia:
-        'Hinojosa Gutiérrez, Á. (2015). Python paso a paso. RA-MA Editorial.',
+        'Hinojosa Gutiérrez, A. (2015). Python paso a paso. RA-MA Editorial.',
       link: 'https://elibro.net/es/lc/elibrocom/titulos/107213',
     },
     {

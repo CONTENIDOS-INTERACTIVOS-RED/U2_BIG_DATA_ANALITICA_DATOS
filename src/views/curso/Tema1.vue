@@ -183,7 +183,7 @@
     p.mb-3(data-aos='flip-up') Las aplicaciones prácticas de la analítica, permiten optimizar procesos y tomar decisiones estratégicas en diversos campos.
     figure.mb-5(data-aos='flip-up')
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="PEND" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     h2.mb-4(data-aos='flip-up') Ventajas de la analítica descriptiva
     p.mb-4(data-aos='flip-up') La analítica descriptiva ofrece ventajas significativas para las organizaciones, al proporcionar información clara y procesable.
@@ -388,11 +388,11 @@
           .col-lg-7
             h2.mb-4 Analítica prescriptiva: guía para optimizar decisiones y procesos.
             p.mb-4 Se invita a explorar los fundamentos de la analítica prescriptiva, una herramienta avanzada que transforma datos, en acciones estratégicas. Este enfoque no solo anticipa desafíos futuros, sino que también propone soluciones específicas, para maximizar los resultados.
-            a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+            a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/analitica_prescriptiva.pdf")' target='_blank')
               .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                 img(src='@/assets/template/icono-pdf.svg')
               .anexo__texto
-                p <strong>Anexo. </strong> Analítica prescriptiva: guía para optimizar decisiones y procesos. (PEND)
+                p <strong>Anexo. </strong> Analítica prescriptiva: guía para optimizar decisiones y procesos.
           .col-lg-5.d-none.d-lg-block
             img(src='@/assets/curso/t1/34.png', alt='')
 

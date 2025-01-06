@@ -49,11 +49,11 @@
           .col-lg-7
              h2.mb-4 Ejemplo práctico
              p.mb-4 Se invita a profundizar en un caso práctico que compara el análisis descriptivo y predictivo, destacando su implementación con herramientas como SQL y Apache Spark. Este ejemplo ofrece una visión detallada sobre cómo estas metodologías, permiten extraer información clave para la toma de decisiones estratégicas, adaptándose a diferentes necesidades organizacionales y niveles de complejidad. 
-             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/PEND.pdf")' target='_blank')
+             a.anexo.mb-4.bg-white.w-fit(:href='obtenerLink("/downloads/ejemplo_practico.pdf")' target='_blank')
                 .anexo__icono(:style='{"background-color": "#FCDFDB"}')
                   img(src='@/assets/template/icono-pdf.svg')
                 .anexo__texto
-                    p <strong>Anexo. </strong> Ejemplo práctico (PEND)
+                    p <strong>Anexo. </strong> Ejemplo práctico
           .col-lg-5.d-none.d-lg-block
              img(src='@/assets/curso/t3/5.png', alt='')
 
