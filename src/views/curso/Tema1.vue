@@ -183,7 +183,7 @@
     p.mb-3(data-aos='flip-up') Las aplicaciones prácticas de la analítica, permiten optimizar procesos y tomar decisiones estratégicas en diversos campos.
     figure.mb-5(data-aos='flip-up')
       .video
-        // iframe(width="560" height="315" src="PEND" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+         iframe(width="560" height="315" src="https://www.youtube.com/embed/zRek9UnW8-E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     h2.mb-4(data-aos='flip-up') Ventajas de la analítica descriptiva
     p.mb-4(data-aos='flip-up') La analítica descriptiva ofrece ventajas significativas para las organizaciones, al proporcionar información clara y procesable.
